@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lklang.github.io</id>
-    <title>lklang</title>
-    <updated>2020-12-29T14:53:50.188Z</updated>
+    <title>初学者 lklang</title>
+    <updated>2020-12-29T15:49:20.800Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lklang.github.io"/>
     <link rel="self" href="https://lklang.github.io/atom.xml"/>
     <subtitle>未来已来，始于足下！</subtitle>
     <logo>https://lklang.github.io/images/avatar.png</logo>
     <icon>https://lklang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, lklang</rights>
+    <rights>All rights reserved 2020, 初学者 lklang</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://lklang.github.io/post/hello-gridea/</id>
