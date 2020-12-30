@@ -1,221 +1,88 @@
-<html>
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+     <meta charset="utf-8" />
+  <title>Hello Gridea | 初学者 lklang</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="https://lklang.github.io/styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ </head>
+ <body>
+     <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img src="https://lklang.github.io/images/avatar.png?v=1609317392654" style="width:127px;" />
 
-<title>Hello Gridea | 初学者 lklang</title>
+     <h3 title=""><a href="/">lklang</a></h3>
 
-<link rel="shortcut icon" href="https://lklang.github.io/favicon.ico?v=1609317197636">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://lklang.github.io/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
-<style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-    }
-</style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
-</head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <style>
-    /* 导航栏样式 */
-    .navbar {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-    }
-
-    .navbar-brand {
-        display: inline-block;
-        padding-top: 0.3125rem;
-        padding-bottom: 0.3125rem;
-        margin-right: 1rem;
-        font-size: 1.25rem;
-        line-height: inherit;
-        white-space: nowrap;
-    }
-
-    .navbar-brand:hover,
-    .navbar-brand:focus {
-        text-decoration: none;
-    }
-
-    .navbar-nav {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding-left: 0;
-        margin-bottom: 0;
-        list-style: none;
-    }
-
-    .navbar-collapse {
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-
-    .navbar-toggler {
-        padding: 0.25rem 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 0.25rem;
-    }
-
-    .navbar-toggler:hover,
-    .navbar-toggler:focus {
-        text-decoration: none;
-    }
-
-    @media (min-width: 992px) {
-        .navbar-expand-lg {
-            -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-            -ms-flex-pack: start;
-            justify-content: flex-start;
-        }
-
-        .navbar-expand-lg .navbar-nav {
-            -ms-flex-direction: row;
-            flex-direction: row;
-        }
-
-        .navbar-expand-lg .navbar-collapse {
-            display: -ms-flexbox !important;
-            display: flex !important;
-            -ms-flex-preferred-size: auto;
-            flex-basis: auto;
-        }
-
-        .navbar-expand-lg .navbar-toggler {
-            display: none;
-        }
-    }
-
-    @media (max-width: 991px) {
-        #navbarSupportedContent {
-            display: none;
-        }
-    }
-</style>
-<nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            初学者 lklang
-        </div>
+     <div class="description">
+      <p>未来已来，始于足下！</p>
+     </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-            <div class="nav-item">
-                
-                <a href="https://lklang.github.io" class="menu gt-a-link">
-                    HOME
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://lklang.github.io/archives" class="menu gt-a-link">
-                    ARCHIVES
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://lklang.github.io/tags" class="menu gt-a-link">
-                    TAGS
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://lklang.github.io/post/about" class="menu gt-a-link">
-                    ABOUT
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1609317197636"
-                action="/search/index.html">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
+   </div>
+   <ul class="social-links">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
     </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = function () {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    Hello Gridea
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2018-12-12 ·
-                    </time>
-                    
-                        <a href="https://lklang.github.io/tag/hLtdntv_7/" class="post-tags">
-                            # Gridea
-                        </a>
-                    
-                </div>
-                <div class="post-content">
-                    <p>!👏  欢迎使用 <strong>Gridea</strong> ！<br>
+    
+
+    </div>
+   </div>
+  </div>
+  <div class="main">
+     <div class="page-top animated fadeInDown">
+    <div class="nav">
+    
+     <li><a  href="https://lklang.github.io">HOME</a></li>
+
+     <li><a  href="https://lklang.github.io/archives">ARCHIVES</a></li>
+
+     <li><a  href="https://lklang.github.io/tags">TAGS</a></li>
+
+     <li><a  href="https://lklang.github.io/post/about">ABOUT</a></li>
+
+    </div>
+    <div class="information">
+     <div class="back_btn">
+      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li>
+     </div>
+    </div>
+   </div>
+   <div class="autopagerize_page_element">
+    <div class="content">
+     <div class="post-page">
+      <div class="post animated fadeInDown">
+       <div class="post-title">
+        <h3><a>Hello Gridea</a></h3>
+       </div>
+       <div class="post-content">
+        <p>!👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
 <p><a href="https://github.com/getgridea/gridea">Github</a><br>
@@ -237,76 +104,48 @@
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
 
-                </div>
-            </article>
+       </div>
+       <div class="post-footer">
+        <div class="meta">
+         <div class="info">
+          <i class="fa fa-sun-o"></i>
+          <span class="date">2018-12-12</span>
+          <i class="fa fa-tag"></i>
+          
+          <a class="tag" href="https://lklang.github.io/tag/hLtdntv_7/" title="Gridea">Gridea </a>
+          
+         </div>
         </div>
+       </div>
+      </div>
+      <div class="share">
+       <div class="evernote">
+        <a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a>
+       </div>
+       <div class="weibo">
+        <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
+       </div>
+       <div class="twitter">
+        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://lklang.github.io/post/hello-gridea/,;"></a>
+       </div>
+      </div>
+      <div class="pagination">
+       <ul class="clearfix">
 
+        <li class="pre pagbuttons"><a class="btn" role="navigation" href="https://lklang.github.io/post/ceshi/" title="ceshi">上一篇</a></li>
+         
         
-
+       </ul>
+      </div>
         
-
-        
-
-        
-            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
-
-<style>
-	div#vcomments{
-		width:100%;
-		max-width: 1000px;
-		padding: 2.5%
-	}
-</style>
-
-
-	<div id="vcomments"></div>
-
-<script>
-	new Valine({
-		el: '#vcomments',
-		appId: '',
-		appKey: '',
-		avatar: '',
-		pageSize: 5,
-		recordIp: false,
-		placeholder: 'Just Go Go',
-		visitor: false,
-	});
-</script>
-
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">未来已来，始于足下！</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
+     </div>
     </div>
-    <div class="footer-info">
-        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://lklang.github.io/atom.xml" target="_blank">RSS</a></a>
-    </div>
-</div>
+   </div>
+  </div>
+  <script src="https://lklang.github.io/media/scripts/jquery.js"></script>
+  <script src="https://lklang.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://lklang.github.io/media/scripts/jquery.appear.js"></script>
 
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
 
-    </div>
-</div>
-</body>
+ </body>
 </html>
