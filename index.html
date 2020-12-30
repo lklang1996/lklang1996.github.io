@@ -1,161 +1,210 @@
-
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
 <title>初学者 lklang</title>
-<meta name="description" content="未来已来，始于足下！">
+<link rel="shortcut icon" href="https://lklang.github.io/favicon.ico?v=1609302765099">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://lklang.github.io/styles/main.css" type='text/css' media='all'>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lklang.github.io/favicon.ico?v=1609302486362">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://lklang.github.io/styles/main.css">
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 
 
 
   </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://lklang.github.io">
-        <img class="avatar" src="https://lklang.github.io/images/avatar.png?v=1609302486362" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://lklang.github.io">
-        <h1 class="site-title">初学者 lklang</h1>
-      </a>
+  <body class="home blog ct-body standard">
+    <div id="overflow-container" class="overflow-container">
+    <a class="skip-content" href="#main">Skip to content</a>
+        <header id="site-header" class="site-header" role="banner">
+    <div class='top-navigation top-navigation-important'>
+        <div class='container'>
+            <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
+                <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fa fa-plus"></i></button>
+                <div class="menu">
+                    <ul id="menu-secondary-items" class="menu-secondary-items">
+                        
+                        
+                            
+                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+                            <a href="https://lklang.github.io/tag/hLtdntv_7/">Gridea</a>
+                        </li>
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+            <ul class="social-media-icons">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
+
+    <div class="container">
+        <div id="title-info" class="title-info">
+            <div id='site-title' class='site-title'>
+                <a href="https://lklang.github.io">  初学者 lklang </a>
+            </div>
+        </div>
+        <button id="toggle-navigation" class="toggle-navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
+        <div id="menu-primary" class="menu-container menu-primary" role="navigation">
+            <p class="site-description">未来已来，始于足下！</p>
+            <div class="menu">
+                <ul id="menu-primary-items" class="menu-primary-items">
+                     
+                        
+                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
+                                <a href="https://lklang.github.io" target="_blank">HOME</a>
+                            </li>
+                        
+                    
+                        
+                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
+                                <a href="https://lklang.github.io/archives" target="_blank">ARCHIVES</a>
+                            </li>
+                        
+                    
+                        
+                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
+                                <a href="https://lklang.github.io/tags" target="_blank">TAGS</a>
+                            </li>
+                        
+                    
+                        
+                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
+                                <a href="https://lklang.github.io/post/about" target="_blank">ABOUT</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a class="menu purple-link" href="https://lklang.github.io" class="menu" target="_blank">
-            HOME
-          </a>
-        
-      
-        
-          <a class="menu purple-link" href="https://lklang.github.io/archives" class="menu" target="_blank">
-            ARCHIVES
-          </a>
-        
-      
-        
-          <a class="menu purple-link" href="https://lklang.github.io/tags" class="menu" target="_blank">
-            TAGS
-          </a>
-        
-      
-        
-          <a class="menu purple-link" href="https://lklang.github.io/post/about" class="menu" target="_blank">
-            ABOUT
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
 
 
-      <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://lklang.github.io/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
+</header>
+
+
+        <div id="main" class="main" role="main">
+  <h1 class="screen-reader-text">Posts</h1>
+  
+  <div id="loop-container" class="loop-container">
+    <div class="post type-post status-publish format-standard   has-post-thumbnail hentry category-design tag-memories
+    tag-normal-post tag-standard-2 excerpt zoom full-without-featured
+      
+      even
+       excerpt">
+      
+      <a class="featured-image-link" href="https://lklang.github.io/post/hello-gridea/">
+        <div class='featured-image lazy lazy-bg-image' data-background="https://lklang.github.io/post-images/hello-gridea.jpg"></div>
       </a>
-      <div class="post-abstract">
-        <p>!👏  欢迎使用 <strong>Gridea</strong> ！<br>
+      
+      <div class="excerpt-container">
+        <div class="excerpt-meta">
+          <span class="date">  · 2018-12-12 ·</span> <span> / </span>
+          <span class="author">
+              <a href="https://lklang.github.io" title="Posts by  初学者 lklang" rel="author"> 初学者 lklang</a>
+          </span>
+            
+                <span> / </span>
+                <span class="category">
+                        <a href="https://lklang.github.io/tag/hLtdntv_7/">Gridea</a>
+                </span>
+            
+
+        </div>
+        <div class='excerpt-header'>
+          <h2 class='excerpt-title'>
+            <a href="https://lklang.github.io/post/hello-gridea/"> Hello Gridea </a>
+          </h2>
+        </div>
+        <div class='excerpt-content'>
+          <article>
+              <p>!👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2018-12-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://lklang.github.io/tag/hLtdntv_7/">
-                Gridea
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="https://lklang.github.io/post/hello-gridea/">
-        <div class="feature-container" style="background-image: url('https://lklang.github.io/post-images/hello-gridea.jpg')">
+          </article>
         </div>
-      </a>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
+      </div>
+    </div>
+  </div>
   
 </div>
 
+        <nav class="navigation pagination" role="navigation">
+    <h2 class="screen-reader-text">Posts navigation</h2>
+    <div class="nav-links">
+        
+        
+    </div>
+</nav>
+
+        <footer id="site-footer" class="site-footer" role="contentinfo">
+    <h1>
+        <a href="https://lklang.github.io"> 初学者 lklang </a>
+    </h1>
+    <p class="site-description">未来已来，始于足下！</p>
+    <div id="menu-footer" class="menu-container menu-footer" role="navigation">
+        <div class="menu">
+            <ul id="menu-footer-items" class="menu-footer-items">
+            </ul>
+        </div>
+    </div>
+    <ul class="social-media-icons">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </ul>
+    <div class="design-credit">
+        <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+    </div>
+</footer>
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+<script src="https://lklang.github.io/media/scripts/lib/jquery.min.js"></script>
+<script src="https://lklang.github.io/media/scripts/lib/jquerymigrate.js"></script>
+<script src="https://lklang.github.io/media/scripts/lib/production.min.js"></script>
 
       </div>
-
-      <div class="site-footer">
-  <div class="slogan">未来已来，始于足下！</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://lklang.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
   </body>
 </html>
+
