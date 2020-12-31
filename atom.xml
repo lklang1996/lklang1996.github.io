@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lklang.github.io</id>
     <title>初学者 lklang</title>
-    <updated>2020-12-31T02:49:27.966Z</updated>
+    <updated>2020-12-31T03:05:31.318Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lklang.github.io"/>
     <link rel="self" href="https://lklang.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://lklang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 初学者 lklang</rights>
     <entry>
-        <title type="html"><![CDATA[<center>物种质量百分含量计算</center>]]></title>
+        <title type="html"><![CDATA[物种质量百分含量计算]]></title>
         <id>https://lklang.github.io/post/lesscentergreaterwu-chong-zhi-liang-bai-fen-han-liang-ji-suan-lesscentergreater/</id>
         <link href="https://lklang.github.io/post/lesscentergreaterwu-chong-zhi-liang-bai-fen-han-liang-ji-suan-lesscentergreater/">
         </link>
