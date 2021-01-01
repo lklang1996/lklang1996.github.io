@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lklang.github.io</id>
     <title>初学者lklang</title>
-    <updated>2021-01-01T14:27:11.726Z</updated>
+    <updated>2021-01-01T15:23:47.330Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lklang.github.io"/>
     <link rel="self" href="https://lklang.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://lklang.github.io/images/avatar.png</logo>
     <icon>https://lklang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 初学者lklang</rights>
+    <entry>
+        <title type="html"><![CDATA[XPSPEAK分峰拟合要点]]></title>
+        <id>https://lklang.github.io/post/1-demeter-ruan-jian-jian-duan-jie-shao/</id>
+        <link href="https://lklang.github.io/post/1-demeter-ruan-jian-jian-duan-jie-shao/">
+        </link>
+        <updated>2021-01-01T14:40:02.000Z</updated>
+        <summary type="html"><![CDATA[<p>归纳总结于网络，操作步骤移步B站。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>归纳总结于网络，操作步骤移步B站。</p>
+<!-- more -->
+<ol>
+<li>荷电校正</li>
+</ol>
+<p>当用XPS测量绝缘体或者半导体时，由于光电子的连续发射而得不到电子补充，使得样品表面出现电子亏损，这种现象称为“荷电效应”。</p>
+<p>荷电效应将使样品表面出现一稳定的电势V<sub>s</sub>，对电子的逃离有一定束缚作用。因此荷电效应将引起能量的位移，使得测量的结合能偏离真实值，造成测试结果的偏差。在用XPS测量绝缘体或者半导体时，需要对荷电效应所引起的偏差进行校正，称之为“荷电校正”。</p>
+<ul>
+<li>将C1<em>s</em>的数据复制到origin中，做成曲线图，并通过数据读取工具来识别C1<em>s</em>谱中的峰值坐标，以其与C1<em>s</em>标准值(284.8 eV)之差作为荷电校正值(Δ)来矫正其他元素的结合能。</li>
+</ul>
+<ol>
+<li>约束条件</li>
+</ol>
+<p>峰位置、半峰宽(FWHM)、峰强度(面积)</p>
+<ul>
+<li>
+<p>峰位置差值：参考https://xpssimplified.com/periodictable.php</p>
+</li>
+<li>
+<p>FWHM：同一价态相等</p>
+</li>
+<li>
+<p>峰面积：2p<sub>1/2</sub> : 2p<sub>3/2</sub> = 1 : 2,  4p不符合</p>
+<p>​                 3d<sub>3/2</sub> : 3d<sub>5/2</sub> = 2 : 3</p>
+<p>​                 4f`<sub>5/2</sub> : 4f<sub>7/2</sub> = 3 : 4</p>
+</li>
+<li>
+<p>过渡金属2p轨道谱线不对称</p>
+</li>
+<li>
+<p>价态越高对应结合能越高</p>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[铁氧化物的磁性问题]]></title>
         <id>https://lklang.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/</id>

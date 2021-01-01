@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>初学者lklang</title>
+<title>XPSPEAK分峰拟合要点 | 初学者lklang</title>
 
 <link rel="shortcut icon" href="https://lklang.github.io/favicon.ico?v=1609514588761">
 
@@ -25,11 +25,11 @@
 
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
 </head>
 <body>
 <div class="main gt-bg-theme-color-first">
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
     <div class="navbar-brand">
         <img class="user-avatar" src="/images/avatar.png" alt="头像">
         <div class="site-name gt-c-content-color-first">
@@ -85,96 +85,71 @@
     </div>
 </nav>
 
-
-        <div class="post-list-container">
-    <div class="post-inner">
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://lklang.github.io/post/1-demeter-ruan-jian-jian-duan-jie-shao/">
-                            <span class="post-title gt-c-content-color-first">XPSPEAK分峰拟合要点</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        <p>归纳总结于网络，操作步骤移步B站。</p>
-
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2021-01-01 ·
-                        </time>
-                        
-                    </div>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    XPSPEAK分峰拟合要点
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-01-01 ·
+                    </time>
+                    
                 </div>
-                
+                <div class="post-content">
+                    <p>归纳总结于网络，操作步骤移步B站。</p>
+<!-- more -->
+<ol>
+<li>荷电校正</li>
+</ol>
+<p>当用XPS测量绝缘体或者半导体时，由于光电子的连续发射而得不到电子补充，使得样品表面出现电子亏损，这种现象称为“荷电效应”。</p>
+<p>荷电效应将使样品表面出现一稳定的电势V<sub>s</sub>，对电子的逃离有一定束缚作用。因此荷电效应将引起能量的位移，使得测量的结合能偏离真实值，造成测试结果的偏差。在用XPS测量绝缘体或者半导体时，需要对荷电效应所引起的偏差进行校正，称之为“荷电校正”。</p>
+<ul>
+<li>将C1<em>s</em>的数据复制到origin中，做成曲线图，并通过数据读取工具来识别C1<em>s</em>谱中的峰值坐标，以其与C1<em>s</em>标准值(284.8 eV)之差作为荷电校正值(Δ)来矫正其他元素的结合能。</li>
+</ul>
+<ol>
+<li>约束条件</li>
+</ol>
+<p>峰位置、半峰宽(FWHM)、峰强度(面积)</p>
+<ul>
+<li>
+<p>峰位置差值：参考https://xpssimplified.com/periodictable.php</p>
+</li>
+<li>
+<p>FWHM：同一价态相等</p>
+</li>
+<li>
+<p>峰面积：2p<sub>1/2</sub> : 2p<sub>3/2</sub> = 1 : 2,  4p不符合</p>
+<p>​                 3d<sub>3/2</sub> : 3d<sub>5/2</sub> = 2 : 3</p>
+<p>​                 4f`<sub>5/2</sub> : 4f<sub>7/2</sub> = 3 : 4</p>
+</li>
+<li>
+<p>过渡金属2p轨道谱线不对称</p>
+</li>
+<li>
+<p>价态越高对应结合能越高</p>
+</li>
+</ul>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://lklang.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/" class="post-title gt-a-link">
+                    铁氧化物的磁性问题
+                </a>
             </div>
         
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://lklang.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/">
-                            <span class="post-title gt-c-content-color-first">铁氧化物的磁性问题</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        <p>总结了铁氧化物特征与磁性分类。</p>
 
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2020-12-31 ·
-                        </time>
-                        
-                    </div>
-                </div>
-                
-                    <a href="https://lklang.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/" class="post-feature-image"
-                       style="background-image: url('https://lklang.github.io/post-images/tie-yang-hua-wu-de-ci-xing-wen-ti.png')">
-                    </a>
-                
-            </div>
         
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://lklang.github.io/post/wu-chong-zhi-liang-bai-fen-han-liang-ji-suan/">
-                            <span class="post-title gt-c-content-color-first"> 物种质量百分含量计算</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        <p>建立峰面积和质量百分含量的关系:</p>
 
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2020-12-30 ·
-                        </time>
-                        
-                            <a href="https://lklang.github.io/tag/gcms/" class="post-tag">
-                                # GC/MS
-                            </a>
-                        
-                    </div>
-                </div>
-                
-                    <a href="https://lklang.github.io/post/wu-chong-zhi-liang-bai-fen-han-liang-ji-suan/" class="post-feature-image"
-                       style="background-image: url('https://lklang.github.io/post-images/wu-chong-zhi-liang-bai-fen-han-liang-ji-suan.png')">
-                    </a>
-                
-            </div>
         
-    </div>
-</div>
 
-        <div class="pagination-container">
-    
-    
-</div>
-
+        
 
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">未来已来，始于足下！</div>
