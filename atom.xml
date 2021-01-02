@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lklang.github.io</id>
+    <id>https://lklang1996.github.io</id>
     <title>初学者lklang</title>
-    <updated>2021-01-02T08:17:32.729Z</updated>
+    <updated>2021-01-02T08:27:09.606Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lklang.github.io"/>
-    <link rel="self" href="https://lklang.github.io/atom.xml"/>
+    <link rel="alternate" href="https://lklang1996.github.io"/>
+    <link rel="self" href="https://lklang1996.github.io/atom.xml"/>
     <subtitle>Our experience makes us who we are.</subtitle>
-    <logo>https://lklang.github.io/images/avatar.png</logo>
-    <icon>https://lklang.github.io/favicon.ico</icon>
+    <logo>https://lklang1996.github.io/images/avatar.png</logo>
+    <icon>https://lklang1996.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 初学者lklang</rights>
     <entry>
         <title type="html"><![CDATA[XPSPEAK分峰拟合要点]]></title>
-        <id>https://lklang.github.io/post/1-demeter-ruan-jian-jian-duan-jie-shao/</id>
-        <link href="https://lklang.github.io/post/1-demeter-ruan-jian-jian-duan-jie-shao/">
+        <id>https://lklang1996.github.io/post/1-demeter-ruan-jian-jian-duan-jie-shao/</id>
+        <link href="https://lklang1996.github.io/post/1-demeter-ruan-jian-jian-duan-jie-shao/">
         </link>
         <updated>2021-01-01T14:40:02.000Z</updated>
         <summary type="html"><![CDATA[<p>归纳总结于网络，操作步骤移步B站。</p>
@@ -55,8 +55,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[铁氧化物的磁性问题]]></title>
-        <id>https://lklang.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/</id>
-        <link href="https://lklang.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/">
+        <id>https://lklang1996.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/</id>
+        <link href="https://lklang1996.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/">
         </link>
         <updated>2020-12-31T12:24:34.000Z</updated>
         <summary type="html"><![CDATA[<p>总结了铁氧化物特征与磁性分类。</p>
@@ -108,8 +108,8 @@
 <li>
 <p>超顺磁性：是指颗粒小于临界尺寸时具有单畴结构的铁磁物质，在温度低于居里温度且高于<a href="https://baike.baidu.com/item/%E8%BD%AC%E5%8F%98%E6%B8%A9%E5%BA%A6/9499364">转变温度</a>（Block Temperature）时表现为顺磁性特点，但在外磁场作用下其顺磁性磁化率远高于一般顺磁材料的磁化率，称为超顺磁性。<br>
 如果磁性材料是一单畴颗粒的集合体，对于每一个颗粒而言，由于磁性原子或离子之间的交换作用很强，磁矩之间将平行取向，而且磁矩取向在由磁晶各向异性所决定的易磁化方向上，但是颗粒之间由于易磁化方向不同，磁矩的取向也就不同。如果进一步减小颗粒的尺寸即体积，颗粒体积减小到某一数值时，热扰动能将与总的磁晶各向异性能相当。颗粒内的磁矩方向就可能随着时间的推移，整体保持平行地在一个易磁化方向和另一个易磁化方向之间反复变化。从单畴颗粒集合体看，不同颗粒的磁矩取向每时每刻都在变换方向，这种磁性的特点和正常顺磁性的情况很相似。<br>
-<img src="https://lklang.github.io/post-images/1609490029094.png" alt="" loading="lazy"><center>x 为磁化率</center><br>
-<img src="https://lklang.github.io/post-images/1609428342265.png" alt="" loading="lazy"></p>
+<img src="https://lklang1996.github.io/post-images/1609490029094.png" alt="" loading="lazy"><center>x 为磁化率</center><br>
+<img src="https://lklang1996.github.io/post-images/1609428342265.png" alt="" loading="lazy"></p>
 </li>
 </ol>
 <blockquote>
@@ -132,8 +132,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[ 物种质量百分含量计算]]></title>
-        <id>https://lklang.github.io/post/wu-chong-zhi-liang-bai-fen-han-liang-ji-suan/</id>
-        <link href="https://lklang.github.io/post/wu-chong-zhi-liang-bai-fen-han-liang-ji-suan/">
+        <id>https://lklang1996.github.io/post/wu-chong-zhi-liang-bai-fen-han-liang-ji-suan/</id>
+        <link href="https://lklang1996.github.io/post/wu-chong-zhi-liang-bai-fen-han-liang-ji-suan/">
         </link>
         <updated>2020-12-30T02:39:21.000Z</updated>
         <summary type="html"><![CDATA[<p>建立峰面积和质量百分含量的关系:</p>
