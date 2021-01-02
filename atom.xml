@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lklang.github.io</id>
     <title>初学者lklang</title>
-    <updated>2021-01-01T15:25:39.713Z</updated>
+    <updated>2021-01-02T04:53:53.837Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lklang.github.io"/>
     <link rel="self" href="https://lklang.github.io/atom.xml"/>
@@ -28,13 +28,13 @@
 <ul>
 <li>将C1<em>s</em>的数据复制到origin中，做成曲线图，并通过数据读取工具来识别C1<em>s</em>谱中的峰值坐标，以其与C1<em>s</em>标准值(284.8 eV)之差作为荷电校正值(Δ)来矫正其他元素的结合能。</li>
 </ul>
-<ol>
+<ol start="2">
 <li>约束条件</li>
 </ol>
 <p>峰位置、半峰宽(FWHM)、峰强度(面积)</p>
 <ul>
 <li>
-<p>峰位置差值：参考https://xpssimplified.com/periodictable.php</p>
+<p>峰位置差值：参考<a href="https://xpssimplified.com/periodictable.php">XPS元素表</a></p>
 </li>
 <li>
 <p>FWHM：同一价态相等</p>
@@ -42,7 +42,7 @@
 <li>
 <p>峰面积：2p<sub>1/2</sub> : 2p<sub>3/2</sub> = 1 : 2,  4p不符合</p>
 <p>​                 3d<sub>3/2</sub> : 3d<sub>5/2</sub> = 2 : 3</p>
-<p>​                 4f`<sub>5/2</sub> : 4f<sub>7/2</sub> = 3 : 4</p>
+<p>​                 4f<sub>5/2</sub> : 4f<sub>7/2</sub> = 3 : 4</p>
 </li>
 <li>
 <p>过渡金属2p轨道谱线不对称</p>
