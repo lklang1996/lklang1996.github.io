@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>XPSPEAK分峰拟合要点 | 初学者lklang</title>
+<title>物理吸附数据分析 | 初学者lklang</title>
 
 <link rel="shortcut icon" href="https://lklang1996.github.io/favicon.ico?v=1624775050685">
 
@@ -89,56 +89,24 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    XPSPEAK分峰拟合要点
+                    物理吸附数据分析
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2021-01-01 ·
+                        · 2021-06-27 ·
                     </time>
-                    
-                        <a href="https://lklang1996.github.io/tag/biao-zheng/" class="post-tags">
-                            # 表征
-                        </a>
-                    
-                        <a href="https://lklang1996.github.io/tag/xps/" class="post-tags">
-                            # XPS
-                        </a>
                     
                 </div>
                 <div class="post-content">
-                    <p>归纳总结于网络，操作步骤移步B站。</p>
+                    <p>孔径分布坐标分析</p>
 <!-- more -->
-<ol>
-<li>荷电校正</li>
-</ol>
-<p>当用XPS测量绝缘体或者半导体时，由于光电子的连续发射而得不到电子补充，使得样品表面出现电子亏损，这种现象称为“荷电效应”。</p>
-<p>荷电效应将使样品表面出现一稳定的电势V<sub>s</sub>，对电子的逃离有一定束缚作用。因此荷电效应将引起能量的位移，使得测量的结合能偏离真实值，造成测试结果的偏差。在用XPS测量绝缘体或者半导体时，需要对荷电效应所引起的偏差进行校正，称之为“荷电校正”。</p>
-<ul>
-<li>将C1<em>s</em>的数据复制到origin中，做成曲线图，并通过数据读取工具来识别C1<em>s</em>谱中的峰值坐标，以其与C1<em>s</em>标准值(284.8 eV)之差作为荷电校正值(Δ)来矫正其他元素的结合能。</li>
-</ul>
-<ol start="2">
-<li>约束条件</li>
-</ol>
-<p>峰位置、半峰宽(FWHM)、峰强度(面积)</p>
-<ul>
-<li>
-<p>峰位置差值：参考<a href="https://xpssimplified.com/periodictable.php">XPS元素表</a></p>
-</li>
-<li>
-<p>FWHM：同一价态相等</p>
-</li>
-<li>
-<p>峰面积：2p<sub>1/2</sub> : 2p<sub>3/2</sub> = 1 : 2,  4p不符合</p>
-<p>​                 3d<sub>3/2</sub> : 3d<sub>5/2</sub> = 2 : 3</p>
-<p>​                 4f<sub>5/2</sub> : 4f<sub>7/2</sub> = 3 : 4</p>
-</li>
-<li>
-<p>过渡金属2p轨道谱线不对称</p>
-</li>
-<li>
-<p>价态越高对应结合能越高</p>
-</li>
-</ul>
+<p>来源：小木虫论坛</p>
+<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm<sup>3</sup>/(g·nm)，后者的单位是cm<sup>3</sup>/g。<br>
+其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<sub>0</sub>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>
+因此初始的吸附等温线上（V<sub>(STP)</sub>对p/p<sub>0</sub>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
+<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>
+在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>
+至于究竟使用dV/dD和dV/dlogD，一般文献使用dV/dD比较多。</p>
 
                 </div>
             </article>
@@ -147,8 +115,8 @@
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://lklang1996.github.io/post/tie-yang-hua-wu-de-ci-xing-wen-ti/" class="post-title gt-a-link">
-                    铁氧化物的磁性问题
+                <a href="https://lklang1996.github.io/post/li-yong-peakfit-chu-li-la-man-guang-pu-shu-ju-jiao-cheng-han-biao-zhun-hua-ping-hua-qu-ji-xian-xun-feng-ni-he-deng-cao-zuo/" class="post-title gt-a-link">
+                    利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）
                 </a>
             </div>
         

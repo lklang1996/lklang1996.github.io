@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lklang1996.github.io</id>
     <title>初学者lklang</title>
-    <updated>2021-06-24T14:57:28.956Z</updated>
+    <updated>2021-06-27T06:24:46.896Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lklang1996.github.io"/>
     <link rel="self" href="https://lklang1996.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://lklang1996.github.io/images/avatar.png</logo>
     <icon>https://lklang1996.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 初学者lklang</rights>
+    <entry>
+        <title type="html"><![CDATA[物理吸附数据分析]]></title>
+        <id>https://lklang1996.github.io/post/wu-li-xi-fu-shu-ju-fen-xi/</id>
+        <link href="https://lklang1996.github.io/post/wu-li-xi-fu-shu-ju-fen-xi/">
+        </link>
+        <updated>2021-06-27T06:08:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>孔径分布坐标分析</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>孔径分布坐标分析</p>
+<!-- more -->
+<p>来源：小木虫论坛</p>
+<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm<sup>3</sup>/(g·nm)，后者的单位是cm<sup>3</sup>/g。<br>
+其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<sub>0</sub>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>
+因此初始的吸附等温线上（V<sub>(STP)</sub>对p/p<sub>0</sub>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
+<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>
+在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>
+至于究竟使用dV/dD和dV/dlogD，一般文献使用dV/dD比较多。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）]]></title>
         <id>https://lklang1996.github.io/post/li-yong-peakfit-chu-li-la-man-guang-pu-shu-ju-jiao-cheng-han-biao-zhun-hua-ping-hua-qu-ji-xian-xun-feng-ni-he-deng-cao-zuo/</id>
