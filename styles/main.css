@@ -1823,100 +1823,100 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #151617!important;
+          background: #ffffff!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #1d1e1f!important;
+          background: #e9ecef!important;
         }
         
         .gt-bg-content-color-first {
-          background: #e0eaef!important;
+          background: #495057!important;
         }
         
         .gt-bg-content-color-second {
-          background: #62686b!important;
+          background: #868e96!important;
         }
         
         .gt-bg-accent-color-first {
-          background: #64b587!important;
+          background: #013ADF!important;
         }
         
         .gt-bg-accent-color-second {
-          background: RGBA(100,181,135,0.14)!important;
+          background: RGBA(1,58,223,0.2)!important;
         }
         
         .gt-c-theme-color-first {
-          color: #151617!important;
+          color: #ffffff!important;
         }
         
         .gt-c-theme-color-second {
-          color: #1d1e1f!important;
+          color: #e9ecef!important;
         }
         
         .gt-c-content-color-first {
-          color: #e0eaef!important;
+          color: #495057!important;
         }
         
         .gt-c-content-color-second {
-          color: #62686b!important;
+          color: #868e96!important;
         }
         
         .gt-c-accent-color-first {
-          color: #64b587!important;
+          color: #013ADF!important;
         }
         
         .gt-c-accent-color-second {
-          color: RGBA(100,181,135,0.14)!important;
+          color: RGBA(1,58,223,0.2)!important;
         }
         
         body {
-          color: #e0eaef!important;
+          color: #495057!important;
         }
         
         a {
-          color: #64b587!important;
+          color: #013ADF!important;
         }
         
         .post-content h1 {
           display: inline-block;
-          color: #e0eaef!important;
+          color: #495057!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(100,181,135,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(1,58,223,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #e0eaef!important;
+          color: #495057!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(100,181,135,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(1,58,223,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #e0eaef!important;
+          color: #495057!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(100,181,135,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(1,58,223,0.4) 0)!important;
         }
         
         .gt-post-content a {
-          color: #64b587!important;
+          color: #013ADF!important;
         }
         
         .gt-post-content blockquote {
-          background: RGBA(100,181,135,0.14)!important;
-          border-color: #64b587!important;
+          background: RGBA(1,58,223,0.2)!important;
+          border-color: #013ADF!important;
         }
         
         .gt-post-content code {
-          background: RGBA(100,181,135,0.14)!important;
+          background: RGBA(1,58,223,0.2)!important;
         }
         
         input::placeholder {
-          color: #62686b!important;
+          color: #868e96!important;
         }
         
         .search-input {
-          color: #e0eaef!important;
-          background-color: #1d1e1f!important;
+          color: #495057!important;
+          background-color: #e9ecef!important;
         }
          
